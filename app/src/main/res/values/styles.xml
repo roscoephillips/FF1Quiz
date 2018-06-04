@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#ffeb3b</item>
+        <item name="android:fontFamily">@font/press_start_2p</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="question_layout">
+
+        <item name="android:background">@drawable/textview_box</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spacing_sml</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_med</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_sml</item>
+        <item name="android:layout_marginRight">@dimen/spacing_sml</item>
+
+    </style>
+
+    <style name="question_content_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/spacing_sml</item>
+        <item name="android:paddingBottom">@dimen/spacing_sml</item>
+        <item name="android:paddingLeft">@dimen/spacing_sml</item>
+        <item name="android:paddingRight">@dimen/spacing_sml</item>
+        <item name="android:lineSpacingExtra">@dimen/textbox_corner_small</item>
+
+    </style>
+
+    <style name="button_layout">
+
+        <item name="android:background">@drawable/textview_box</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">@dimen/spacing_sml</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_med</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_sml</item>
+        <item name="android:layout_marginRight">@dimen/spacing_sml</item>
+
+    </style>
+
+    <style name="image_attributes">
+
+        <item name="android:layout_width">@dimen/img_small</item>
+        <item name="android:layout_height">@dimen/img_small</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingBottom">@dimen/spacing_x_sml</item>
+        <item name="android:paddingEnd">@dimen/spacing_med</item>
+        <item name="android:paddingLeft">@dimen/spacing_med</item>
+        <item name="android:paddingRight">@dimen/spacing_med</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+
+</resources>

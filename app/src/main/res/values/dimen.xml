@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textbox_corner_small">4dp</dimen>
+    <dimen name="spacing_x_sml">8dp</dimen>
+    <dimen name="spacing_sml">12dp</dimen>
+    <dimen name="spacing_med">16dp</dimen>
+    <dimen name="spacing_lrg">24dp</dimen>
+
+    <dimen name="txt_small">12sp</dimen>
+
+    <dimen name="img_small">100dp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+
+</resources>

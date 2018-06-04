@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">FF1Quiz</string>
+
+    <!-- Starting line of quiz-->
+    <string name="ff1_quiz_op">Welcome to the Final Fantasy 1 Quiz!</string>
+
+    <!--Question 1 and its answers-->
+    <string name="question_1">1. What is the name of the first boss you fight in Final Fantasy?</string>
+    <string name="question_1_answer_1">Gabranth</string>
+    <string name="question_1_answer_2">Garland</string>
+    <string name="question_1_answer_3">Greyhorn</string>
+    <string name="question_1_answer_4">Godzilla</string>
+
+    <!--Question 2 and its answers-->
+    <string name="question_2">2. True or False: The damage of Black Magic is based on your character\'s intelligence stat.</string>
+    <string name="answer_true">True</string>
+    <string name="answer_false">False</string>
+
+    <!--Question 3 and its answers-->
+    <string name="question_3">3. Which NPC can give your party a job upgrade?</string>
+    <string name="question_3_field">Please enter NPC name here.</string>
+
+    <!--Question 4 and its answers-->
+    <string name="question_4">4. Which of these jobs are available in Final Fantasy?  Click on all that apply.</string>
+    <string name="question_4_answer_1">Ninja</string>
+    <string name="question_4_answer_2">Black Wizard</string>
+    <string name="question_4_answer_3">Red Mage</string>
+    <string name="question_4_answer_4">Rogue</string>
+    <string name="question_4_answer_5">Fighter</string>
+    <string name="question_4_answer_6">White Knight</string>
+    <string name="question_4_answer_7">Black Belt</string>
+
+    <!--Question 5 and its answers-->
+    <string name="question_5">5. How many times do you have to press A and B together to unlock the secret mini-game?</string>
+    <string name="question_5_field">Enter the number here.</string>
+    <string name="empty_question_5">Question 5 is blank.  Please complete question 5.</string>
+
+    <!--Question 6 and its answers-->
+    <string name="question_6">6. What is the name of the secret boss on the Flying Fortress?</string>
+    <string name="question_6_answer_1">Warmech</string>
+    <string name="question_6_answer_2">OmegaWpn</string>
+    <string name="question_6_answer_3">Killbot</string>
+
+
+    <!--Submit button.-->
+    <string name="submit_button">Submit</string>
+
+    <!--Score results.  perfect_score is if you got them all right, and try_again is for those missing a few questions.-->
+    <string name="perfect_score">You really know your stuff! You got <xliff:g example="100" id="calculateScore">%1$d%%</xliff:g> of the questions correct!  Congratulations!</string>
+    <string name="try_again">You\'re on your way!  You got <xliff:g example="100" id="calculateScore">%1$d%%</xliff:g> correct this time.  Nice work!</string>
+
+</resources>
+
